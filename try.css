@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+
+.containerJD {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(243, 239, 239, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+    background-color: white(0, 110, 255, 0.041);
+}
+
+.headerJ {
+    flex: 1;
+    width: 100%;
+    border: 2px dashed royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header svg {
+    height: 100px;
+}
+
+.header p {
+    text-align: center;
+    color: rgb(248, 243, 243);
+}
+
+.footer {
+    background-color: rgba(226, 229, 233, 0.966);
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgb(244, 235, 235);
+    border: none;
+}
+
+.footer svg {
+    height: 130%;
+    fill: royalblue;
+    background-color: rgba(245, 237, 237, 0.947);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 30px rgba(243, 241, 241, 0.205);
+}
+
+.footer p {
+    color: white;
+    flex: 1;
+    text-align: center;
+}
+
+#file {
+    display: none;
+}
